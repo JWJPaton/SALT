@@ -1,5 +1,5 @@
 # SALT
-Speech as lookup table - Using an updatable list of pre-recorded audio clips to provide speech access to static and semi-static menu systems.
+Speech as A Lookup Table - Using an updatable list of pre-recorded audio clips to provide speech access to static and semi-static menu systems.
 
 ## Types of automated speech
 Automated speech can be placed in three categories
@@ -14,6 +14,9 @@ Semi-static speech would apply to devices such as DAB radios. Many of the menu o
 A dynamic speech system (screenreaders, voice assistants etc) could need to say anything at any time. This will require a speech synthesiser. 
 
 ## Features of SALT
+### Semi-static speech
 - audio clips are referenced by the text they read out, an audio clip saying 'radio' will be referenced by the string "radio"
 - there will be a full set of alphabet audio clips from "a" to "z" so if a clip is missing for a word then the word can be spelled out this may also trigger a 'request' message
 - a 'request' mechanism and 'update' mechanism will exist so missing clips can be requested and new audio clips can be downloaded
+### Static speech
+- functionality reduced to just triggered audio playback
