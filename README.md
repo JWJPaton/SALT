@@ -16,7 +16,7 @@ A dynamic speech system (screenreaders, voice assistants etc) could need to say 
 ## Features of SALT
 ### Semi-static speech
 - audio clips are referenced by the text they read out, an audio clip saying 'radio' will be referenced by the string "radio"
-- there will be a full set of alphabet audio clips from "a" to "z" so if a clip is missing for a word then the word can be spelled out this may also trigger a 'request' message
+- there will be a full set of alphabet audio clips from "a" to "z" so if a clip is missing for a word then the word can be spelled out. This may also add a 'request' to the request queue
 - a 'request' mechanism and 'update' mechanism will exist so missing clips can be requested and new audio clips can be downloaded
 ### Static speech
 - functionality reduced to just triggered audio playback
